@@ -1,0 +1,117 @@
+body
+{
+  background: url(../../img/bgradient1.jpg);
+}
+
+#navegacion1
+{
+  background: #171a21;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+
+span
+{
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+
+#Instalar
+{
+  border-radius: 0; 
+  background: #43a700;
+}
+
+#Slider
+{
+  width: 100%;
+  height: 70%;
+}
+
+#Opciones
+{
+  height: 100%;
+}
+
+#menu1 , #menu2
+{
+  color: #c6d4df;
+}
+
+#menu1:hover , #menu2:hover
+{
+  color: white;
+}
+
+h6
+{
+  font-family: 'Roboto Slab', serif;
+  color: #c6d4df;
+}
+
+.fila1
+{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fila1:hover
+{
+  text-decoration: none;
+  color: white;
+}
+
+.dropboton
+{
+  border-radius: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  padding: 10px 18px;
+  background: #ff0039;
+}
+
+.dropsombra
+{
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+
+.zoom:hover
+{
+  transform: scale(1.1);
+}
+  
+ .fondito
+ {
+  color: #a4d007;
+ }
+
+ @media only screen and (max-width: 768px)
+{
+     .dinero{
+              display: none;
+   }
+}
+
+@media only screen and (max-width: 767px)
+{
+     #margensito{
+            padding-bottom: 3px;
+   }
+}
+/*
+footer 
+{
+  
+}
+*/
+.linkfooter
+{
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+.linkfooter:hover
+{
+  text-decoration: none;
+  color:#ff0039;
+}
